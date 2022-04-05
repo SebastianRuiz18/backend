@@ -1,0 +1,44 @@
+install packages:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# packages for DB connection
+python -m pip install Flask-PyMongo
+python -m pip install "pymongo[srv]"
+python -m pip install certifi

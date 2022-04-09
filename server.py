@@ -7,9 +7,10 @@ import json
 from mock_data import catalog
 from config import db
 from bson import ObjectId
+from flask_cors import CORS
 
 app = Flask("Server")
-
+CORS(app)
 
 @app.route("/")
 def home():
